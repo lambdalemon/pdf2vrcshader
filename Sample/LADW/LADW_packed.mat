@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LADW_packed
+  m_Shader: {fileID: 4800000, guid: 205eca222d7df62f98023bf3671bb87f, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _COLOR_ON
+  - _DIFFUSE_ON
+  - _PACKED_ATLAS_ON
+  m_InvalidKeywords:
+  - _USE_LIGHT_OFFSET_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorTex:
+        m_Texture: {fileID: 2800000, guid: c384a37175b7f6a5c8309efee44bbcfd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlyphArray:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlyphAtlas:
+        m_Texture: {fileID: 18700000, guid: 9525396cf90dedb7c83b48a5b5e1403b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlyphAtlas2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlyphAtlasPacked:
+        m_Texture: {fileID: 2800000, guid: 98d3530eefbb3924da1fe95a3d12809c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Glyphs:
+        m_Texture: {fileID: 2800000, guid: 43127d5fca0e3a98a8e68e8a904cbf85, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ImageAtlas:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: e57950fb5a10515e690f5ba178086148, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints:
+    - _AtlasOffset: 1754
+    - _NumPages: 286
+    - _NumTrisPerPage: 74
+    - _PageNumber: 33
+    - _PageNumberOffset: 0
+    - _PageNumberOffsetIncrement: 2
+    m_Floats:
+    - _BumpScale: 1
+    - _COLOR: 1
+    - _CellHeight: 64
+    - _CellSize: 64
+    - _CellWidth: 64
+    - _Cutoff: 0.5
+    - _DIFFUSE: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EXACT_BEZIER: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HALF: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NumColumns: 16
+    - _OcclusionStrength: 1
+    - _OffsetX: 0
+    - _OffsetY: 0
+    - _OffsetZ: 0.0001
+    - _PACKED_ATLAS: 1
+    - _Padding: 2.5
+    - _PageHeight: 792
+    - _PageNumber: 14.9
+    - _PageNumberOffset: 0
+    - _PageNumberOffsetLightAlpha: 0.1568628
+    - _PageOffsetLightAlpha: 0.1568628
+    - _PageWidth: 612
+    - _Parallax: 0.02
+    - _Scale: 0.001
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _USE_LIGHT_OFFSET: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _CellSize: {r: 64, g: 86, b: 0, a: 0}
+    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PlaneBounds: {r: -1.2847883, g: -3.0174081, b: 2.5217881, a: 0.7891683}
+  m_BuildTextureStacks: []
