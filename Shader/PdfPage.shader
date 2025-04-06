@@ -228,6 +228,9 @@ Shader "Geometry/PdfPage"
 					float2 origin = data1.xy;
 					float4 planeBounds = float4(0, 0, 1, 1);
 					float4 uvBounds = loadData(_MainTex, data1.z);
+					bool is_flipped = determinant(mat) < 0;
+					planeBounds = is_flipped ? planeBounds.xwzy : planeBounds;
+					uvBounds = is_flipped ? uvBounds.xwzy : uvBounds;
 					pxy = mul(planeBounds.xy, mat) + origin;
 					pxw = mul(planeBounds.xw, mat) + origin;
 					pzy = mul(planeBounds.zy, mat) + origin;
